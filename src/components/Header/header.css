@@ -1,0 +1,12 @@
+.headerContainer {
+  padding: 50px 80px !important;
+}
+.headerContainer h1:first-of-type {
+  padding-top: 5rem;
+}
+.headerContainer h1 {
+  font-size: 3.1rem;
+}
+.headerContainer p:first-of-type {
+  font-size: 18px;
+}
