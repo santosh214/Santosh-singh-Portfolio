@@ -107,7 +107,7 @@ export default function About() {
             {technologies.length > 0
               ? technologies.map((item, index) => {
                   return (
-                    <div className="col-md-2 m-4 ">
+                    <div className="col-md-2 m-4 " key={index}>
                       <div className="col   py-3 px-5  d-flex justify-content-evenly">
                         <img
                           src={`../assets/images/tech-icons/${item.img}.svg`}

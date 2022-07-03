@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
+import Notfound from "./components/NotFound/Notfound";
 function App() {
   return (
     <>
@@ -12,16 +13,12 @@ function App() {
         <Navabr />
         <Routes>
           <Route path="/about-us" element={<About />} />
-        </Routes>{" "}
-        <Routes>
-          <Route path="/" element={<Header />} />
-        </Routes>
-        <Routes>
+          <Route  path="/"  element={<Header />} />
           <Route path="/services" element={<Services />} />
-        </Routes>
-        <Routes>
           <Route path="/contact" element={<Contact/>} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
+        
       </Router>
     </>
   );
