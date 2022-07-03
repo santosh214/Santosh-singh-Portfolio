@@ -16,7 +16,7 @@ export default function Navabr() {
       },
       {
         name: "About",
-        path: "/about",
+        path: "/about-us",
       },
       {
         name: "Services",
@@ -36,8 +36,8 @@ export default function Navabr() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            SANTOSH SINGH
+          <Link className="navbar-brand lavishFont ps-5 " to="/">
+            {"<Santosh/>"}
           </Link>
           <button
             className="navbar-toggler"
@@ -56,7 +56,7 @@ export default function Navabr() {
                 ? routes.map((route, index) => {
                     return (
                       <Link
-                        className="nav-item px-4 "
+                        className="nav-item mx-4 fw-bold hover-underline-animation"
                         key={index}
                         to={route.path}
                       >
