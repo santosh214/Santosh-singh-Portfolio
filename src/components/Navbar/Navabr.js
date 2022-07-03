@@ -22,10 +22,10 @@ export default function Navabr() {
         name: "Services",
         path: "/services",
       },
-      {
-        name: "Projects",
-        path: "/projects",
-      },
+      // {
+      //   name: "Projects",
+      //   path: "/projects",
+      // },
       {
         name: "Contact",
         path: "/contact",
@@ -56,7 +56,7 @@ export default function Navabr() {
                 ? routes.map((route, index) => {
                     return (
                       <Link
-                        className="nav-item mx-4 fw-bold hover-underline-animation"
+                        className="nav-item mx-4   fw-bold hover-underline-animation"
                         key={index}
                         to={route.path}
                       >

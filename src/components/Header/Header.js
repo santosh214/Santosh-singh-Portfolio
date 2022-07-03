@@ -7,7 +7,9 @@ export default function Header() {
       <div className="container-fluid headerContainer">
         <div className="row">
           <div className="col-md-6">
-            <h1>Hi, I am Santosh Singh</h1>
+            <h1>
+              Hi, I am <span className="myName"> Santosh Singh</span>{" "}
+            </h1>
             <h1>
               <Typewriter
                 options={{
@@ -33,8 +35,8 @@ export default function Header() {
               />
             </h1>
             <p>
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              iMentus Technologies as a Software Engineer
+              I am a Front-End / Full-Stack Developer, currently i am working at
+              iMentus Technologies as a Software Engineer.
             </p>
             <img
               src="../assets/images/social-icons/instagram2.svg"
@@ -67,7 +69,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    
     </>
   );
 }

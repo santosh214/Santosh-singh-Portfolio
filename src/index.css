@@ -8,9 +8,7 @@
 a {
   text-decoration: none !important;
 }
-a:hover {
-  /* color: rgb(14, 219, 255) !important; */
-}
+
 .lavishFont {
   font-family: "Lavishly Yours", cursive;
   font-size: 2.5rem !important;
@@ -41,7 +39,8 @@ a:hover {
 }
 
 .blueColor {
-  color: rgb(14, 219, 255) !important;
+  color: coral !important;
+  opacity: 0.8;
 }
 .lineHeight {
   line-height: 1.9 !important;

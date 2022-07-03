@@ -83,7 +83,7 @@ export default function About() {
             <div className="col-12">
               <h1 className="blueColor fw-bold">A bit about me</h1>
               <p className="lineHeight py-2">
-                I'm a self-taught web developer and Mobile App Developer with
+                I'm a self-taught Web developer and Frontend Developer with
                 experience in designing new features from ideation to
                 production, implementation of wireframes and design flows into
                 high performance software applications. I take into

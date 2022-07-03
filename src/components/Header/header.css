@@ -10,3 +10,7 @@
 .headerContainer p:first-of-type {
   font-size: 18px;
 }
+.myName{
+  color: coral !important;
+  font-weight: 600;
+}
