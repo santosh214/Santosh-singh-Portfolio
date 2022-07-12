@@ -60,7 +60,7 @@ export default function Navabr() {
                 ? routes.map((route, index) => {
                     return (
                       <Link
-                        className="nav-item mx-4   fw-bold hover-underline-animation"
+                        className="nav-item mx-4    hover-underline-animation"
                         key={index}
                         to={route.path}
                       >
