@@ -29,13 +29,16 @@
   }
   .headerContainer h1:nth-child(2){
     padding-bottom: 12px;
+    padding: 1px 12px 12px 12px;
     text-align: center;
     
   }
   .headerContainer p:first-of-type{
-    text-align: justify;
-    padding: 10px 12px 0px 12px;
+    padding: 10px 17px 0px 17px;
+    font-size: 14px;
+    text-align: center;
   }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
