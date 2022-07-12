@@ -7,6 +7,15 @@
   font-weight: 600;
 }
 
-.linkColor{
-    color: #ffca80 !important;
+.linkColor {
+  color: #ffca80 !important;
+}
+@media only screen and (max-width: 600px) {
+  .contactSection {
+    padding: 20px 2vw 0px 2vw;
+  }
+  p,a,u,li{
+    font-size: 12px;
+  }
+
 }

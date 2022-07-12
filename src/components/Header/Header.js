@@ -38,27 +38,29 @@ export default function Header() {
               I am a Front-End / Full-Stack Developer, currently i am working at
               iMentus Technologies as a Software Engineer.
             </p>
-            <img
-              src="../assets/images/social-icons/instagram2.svg"
-              width={50}
-              height={50}
-              className="rounded-3 img-fluid mx-2"
-              alt=""
-            />
-            <img
-              src="../assets/images/social-icons/github2.png"
-              width={50}
-              height={50}
-              className="rounded-3 img-fluid mx-2"
-              alt=""
-            />
-            <img
-              src="../assets/images/social-icons/linkedin3.svg"
-              width={50}
-              height={50}
-              className="rounded-3 img-fluid mx-2"
-              alt=""
-            />
+            <div className="d-flex justify-content-center justify-content-md-start">
+              <img
+                src="../assets/images/social-icons/instagram2.svg"
+                width={50}
+                height={50}
+                className="rounded-3 img-fluid mx-2"
+                alt=""
+              />
+              <img
+                src="../assets/images/social-icons/github2.png"
+                width={50}
+                height={50}
+                className="rounded-3 img-fluid mx-2"
+                alt=""
+              />
+              <img
+                src="../assets/images/social-icons/linkedin3.svg"
+                width={50}
+                height={50}
+                className="rounded-3 img-fluid mx-2"
+                alt=""
+              />
+            </div>
           </div>
           <div className="col-md-6">
             <img

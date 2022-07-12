@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./about.css";
 export default function About() {
   const technologies = [
     {
@@ -76,8 +76,8 @@ export default function About() {
 
   return (
     <>
-      <section about="Santosh singh About section" className="py-5">
-        <div className="container-fluid px-5 ">
+      <section about="Santosh singh About section" className="py-md-5 py-3">
+        <div className="container-fluid px-md-5 px-2">
           <h1 className="text-center fw-bolder pb-4">About Me</h1>
           <div className="row px-3">
             <div className="col-12">
@@ -103,19 +103,24 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="row d-flex justify-content-center">
+          <div className="row justify-content-evenly ">
             {technologies.length > 0
               ? technologies.map((item, index) => {
                   return (
-                    <div className="col-md-2 m-4 " key={index}>
-                      <div className="col   py-3 px-5  d-flex justify-content-evenly">
+                    <div
+                      className="col-md-2  col-3 m-md-4  m-3 d-flex justify-content-evenly"
+                      key={index}
+                    >
+                      <div className="col-4 col-md-4 py-md-3   d-flex justify-content-evenly">
                         <img
                           src={`../assets/images/tech-icons/${item.img}.svg`}
                           alt="react"
                           className="img-fluid  rounded circle "
                           width={80}
                         />
-                        <p className="h5 pt-4 ms-4">{item.name}</p>
+                        <p className=" pt-3 ms-2 pt-md-4 ms-md-4 techName">
+                          {item.name}
+                        </p>
                       </div>
                     </div>
                   );

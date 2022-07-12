@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import './navbar.css'
 
 export default function Navabr() {
   const [routes, setRoutes] = useState([]);
@@ -36,11 +37,14 @@ export default function Navabr() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <Link className="navbar-brand lavishFont ps-5 " to="/">
+          <Link className="navbar-brand lavishFont ps-md-5 ps-1" to="/">
             {"<Santosh/>"}
           </Link>
           <button
             className="navbar-toggler"
+            style={{
+              outline:'none'
+            }}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -48,7 +52,7 @@ export default function Navabr() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="border px-2 py-1 rounded-3"> &#128525;</span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

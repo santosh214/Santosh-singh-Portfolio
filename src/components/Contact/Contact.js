@@ -3,14 +3,14 @@ import "./contact.css";
 export default function Contact() {
   return (
     <section about="Santosh contact us section" className="contactSection">
-      <h1 className="contactH1 pb-4">Contact Me</h1>
+      <h1 className="contactH1 pb-4 text-md-start text-center">Contact Me</h1>
       <div className="container">
         <div className="row">
           <div className="col">
-            <p className="text-secondary">
+            <p className="text-secondary px-md-0 px-2">
               Here's how to reach me, looking forward to talk with you all!.
             </p>
-            <p className="text-secondary">
+            <p className="text-secondary px-md-0 px-2">
               Inquiries via email at{" "}
               <a href="mailto:santoshsingh74827@gmail.com">
                 <u className="linkColor"> santoshsingh74827@gmail.com </u>
