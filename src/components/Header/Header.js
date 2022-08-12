@@ -39,27 +39,44 @@ export default function Header() {
               iMentus Technologies as a Software Engineer.
             </p>
             <div className="d-flex justify-content-center justify-content-md-start">
-              <img
-                src="../assets/images/social-icons/instagram2.svg"
-                width={50}
-                height={50}
-                className="rounded-3 img-fluid mx-2"
-                alt=""
-              />
-              <img
-                src="../assets/images/social-icons/github2.png"
-                width={50}
-                height={50}
-                className="rounded-3 img-fluid mx-2"
-                alt=""
-              />
-              <img
-                src="../assets/images/social-icons/linkedin3.svg"
-                width={50}
-                height={50}
-                className="rounded-3 img-fluid mx-2"
-                alt=""
-              />
+              <a
+                href="https://www.instagram.com/____mango____man/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="../assets/images/social-icons/instagram2.svg"
+                  width={50}
+                  height={50}
+                  className="rounded-3 img-fluid mx-2"
+                  alt=""
+                />
+              </a>
+              <a href="https://github.com/santosh214" target="_blank" 
+                rel="noreferrer"
+                >
+                <img
+                  src="../assets/images/social-icons/github2.png"
+                  width={50}
+                  height={50}
+                  className="rounded-3 img-fluid mx-2"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/santosh-singhh/"
+                target="_blank"
+                rel="noreferrer"
+
+              >
+                <img
+                  src="../assets/images/social-icons/linkedin3.svg"
+                  width={50}
+                  height={50}
+                  className="rounded-3 img-fluid mx-2"
+                  alt=""
+                />
+              </a>
             </div>
           </div>
           <div className="col-md-6">
