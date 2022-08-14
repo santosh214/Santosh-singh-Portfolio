@@ -17,7 +17,7 @@ export default function Services() {
               <img
                 src="../assets/images/tech-icons/web-development.png"
                 alt="web"
-                className="img-fluid py-3"
+                className="img-fluid my-5"
               />
               <p className="fw-bold py-2">Web Application Development</p>
             </div>
@@ -28,7 +28,7 @@ export default function Services() {
               <img
                 src="../assets/images/tech-icons/frontend-development.png"
                 alt="web"
-                className="img-fluid py-3"
+                className="img-fluid my-5"
               />
               <p className="fw-bold py-2">Frontend Development</p>
             </div>
@@ -39,7 +39,7 @@ export default function Services() {
               <img
                 src="../assets/images/tech-icons/web-development.png"
                 alt="web"
-                className="img-fluid py-3"
+                className="img-fluid my-5"
               />
               <p className="fw-bold py-2">Backend Development</p>
             </div>
