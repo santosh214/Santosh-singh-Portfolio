@@ -1,10 +1,20 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./header.css";
+import { motion } from "framer-motion";
 export default function Header() {
   return (
     <>
-      <div className="container-fluid headerContainer">
+      <motion.div className="container-fluid headerContainer"
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
+
+      // initial={{width:0}}
+      // animate={{width:'100%'}}
+      // exit={{x:window.innerWidth, transition:{duration:0.1}}}
+
+      >
         <div className="row">
           <div className="col-md-6">
             <h1>
@@ -87,7 +97,7 @@ export default function Header() {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

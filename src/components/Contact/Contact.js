@@ -1,8 +1,14 @@
 import React from "react";
 import "./contact.css";
+import { motion } from "framer-motion";
 export default function Contact() {
   return (
-    <section about="Santosh contact us section" className="contactSection">
+    <motion.section about="Santosh contact us section" className="contactSection"
+    
+    initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
+    >
       <h1 className="contactH1 pb-4 text-md-start text-center">Contact Me</h1>
       <div className="container">
         <div className="row">
@@ -53,6 +59,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

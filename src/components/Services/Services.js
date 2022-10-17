@@ -1,9 +1,13 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 export default function Services() {
   return (
     <>
-      <section about="Santosh service section">
+      <motion.section about="Santosh service section"
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
+      >
         <h1 className="text-center fw-bolder pb-4">Services</h1>
 
         <div className="container-fluid px-5">
@@ -45,7 +49,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

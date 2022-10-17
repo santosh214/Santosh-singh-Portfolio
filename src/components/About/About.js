@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import {motion} from 'framer-motion'
 export default function About() {
   const technologies = [
     {
@@ -75,8 +76,8 @@ export default function About() {
   ];
 
   return (
-    <>
-      <section about="Santosh singh About section" className="py-md-5 py-3">
+    <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+      <section section about="Santosh singh About section" className="py-md-5 py-3">
         <div className="container-fluid px-md-5 px-2">
           <h1 className="text-center fw-bolder pb-4">About Me</h1>
           <div className="row px-3">
@@ -129,6 +130,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 }

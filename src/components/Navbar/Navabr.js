@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './navbar.css'
-
+import { motion } from "framer-motion";
 export default function Navabr() {
   const [routes, setRoutes] = useState([]);
   useEffect(() => {
@@ -35,7 +35,9 @@ export default function Navabr() {
   };
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg "
+     
+      >
         <div className="container-fluid">
           <Link className="navbar-brand lavishFont ps-md-5 ps-1" to="/">
             {"<Santosh/>"}
