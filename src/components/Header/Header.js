@@ -16,7 +16,7 @@ export default function Header() {
 
       >
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 fade-in-image">
             <h1>
               Hi, I am <span className="myName"> Santosh Singh</span>{" "}
             </h1>
@@ -89,7 +89,7 @@ export default function Header() {
               </a>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 fade-in-image">
             <img
               src="../assets/images/header.svg"
               alt="santosh img"

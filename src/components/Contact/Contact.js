@@ -9,8 +9,9 @@ export default function Contact() {
       animate={{opacity:1}}
       exit={{opacity:0}}
     >
+      <div className="container fade-in-image">
       <h1 className="contactH1 pb-4 text-md-start text-center">Contact Me</h1>
-      <div className="container">
+
         <div className="row">
           <div className="col">
             <p className="text-secondary px-md-0 px-2">

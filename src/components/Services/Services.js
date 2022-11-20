@@ -8,9 +8,10 @@ export default function Services() {
       animate={{opacity:1}}
       exit={{opacity:0}}
       >
+
+        <div className="container-fluid px-5 fade-in-image">
         <h1 className="text-center fw-bolder pb-4">Services</h1>
 
-        <div className="container-fluid px-5">
           <h2 className="blueColor fw-bold px-md-5  mx-3">What I Provide</h2>
 
           <div className="row pt-5  d-flex justify-content-evenly py-4">

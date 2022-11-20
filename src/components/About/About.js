@@ -77,7 +77,7 @@ export default function About() {
 
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
-      <section section about="Santosh singh About section" className="py-md-5 py-3">
+      <section section about="Santosh singh About section" className="py-md-5 py-3 fade-in-image">
         <div className="container-fluid px-md-5 px-2">
           <h1 className="text-center fw-bolder pb-4">About Me</h1>
           <div className="row px-3">
