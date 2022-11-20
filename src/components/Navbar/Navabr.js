@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './navbar.css'
-import { motion } from "framer-motion";
 export default function Navabr() {
   const [routes, setRoutes] = useState([]);
   useEffect(() => {
