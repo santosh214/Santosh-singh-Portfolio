@@ -1,21 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:wght@300&display=swap');
 * {
   color: white !important;
   background-color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* border: 1px solid rgb(255, 255, 255); */
 }
 
 a {
   text-decoration: none !important;
 }
-img:hover{
+img:hover {
   transform: scale(1.1);
   transition: ease 0.3s;
-
 }
 .lavishFont {
-  font-family: "Lavishly Yours", cursive;
+  font-family: 'Lavishly Yours', cursive;
   font-size: 2.5rem !important;
 }
 .hover-underline-animation {
@@ -26,7 +25,7 @@ img:hover{
 }
 
 .hover-underline-animation:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -46,4 +45,9 @@ img:hover{
 .blueColor {
   color: coral !important;
   opacity: 0.8;
+}
+
+body {
+  background: black;
+  background-color: black !important;
 }
