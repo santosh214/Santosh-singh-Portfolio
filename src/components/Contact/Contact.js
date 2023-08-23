@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { motion } from "framer-motion";
+import RESUME from '../../assets/files/SANTOSH_SINGH.pdf'
 export default function Contact() {
   return (
     <motion.section about="Santosh contact us section" className="contactSection"
@@ -50,7 +51,7 @@ export default function Contact() {
             <p className="pt-3 text-secondary">
               View my resume in{" "}
               <a
-                href="../assets/files/Santosh_singh_React_Resume_.pdf"
+                href={RESUME}
                 download
                 className="linkColor"
               >
