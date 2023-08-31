@@ -55,7 +55,7 @@ export default function Contact() {
                 download
                 className="linkColor"
               >
-                pdf format.
+                pdf format
               </a>{" "}
             </p>
           </div>
