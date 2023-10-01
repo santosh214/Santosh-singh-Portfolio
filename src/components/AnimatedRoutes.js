@@ -10,6 +10,7 @@ import Services from '../components/Services/Services'
 import Contact from '../components/Contact/Contact'
 import Notfound from '../components/NotFound/Notfound'
 import {AnimatePresence} from 'framer-motion'
+import Project from './Project/Project';
 export default function AnimatedRoutes() {
   const location = useLocation();
 
@@ -22,6 +23,7 @@ export default function AnimatedRoutes() {
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Notfound />} />
+      <Route path="/projects" element={<Project />} />
     </Routes>
     </AnimatePresence>
   );
