@@ -22,10 +22,10 @@ export default function Navabr() {
         name: "Services",
         path: "/services",
       },
-      // {
-      //   name: "Projects",
-      //   path: "/projects",
-      // },
+      {
+        name: "Projects",
+        path: "/projects",
+      },
       {
         name: "Contact",
         path: "/contact",
