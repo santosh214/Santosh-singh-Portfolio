@@ -43,8 +43,8 @@ export default function Contact() {
               </li>
               <li className="pt-3">
                 Telegram-{" "}
-                <a className="linkColor" href="https://t.me/MangoMan214">
-                  https://t.me/MangoMan214
+                <a className="linkColor" href="https://t.me/ssinghbb2">
+                https://t.me/ssinghbb2
                 </a>{" "}
               </li>
             </ul>
