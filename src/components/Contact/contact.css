@@ -3,12 +3,15 @@
   padding: 40px 20vw 0px 20vw;
 }
 .contactH1 {
-  color: #ff80bf !important;
+  color: #d66aa0 !important;
   font-weight: 600;
 }
 
 .linkColor {
   color: #ffca80 !important;
+}
+.linkColor:hover{
+  color:#ff80bf !important;
 }
 @media only screen and (max-width: 600px) {
   .contactSection {
