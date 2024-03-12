@@ -13,7 +13,7 @@
 </h1>
 
 <h1 align="center">Hi 👋, I'm <a href="https://100rabhcsmc.github.io/Me.io/" target="blank">Santosh</a></h1>
-<h3 align="center">A Passionate Fullstack developer &#127470;&#127475;</h3>
+<h3 align="center">A Passionate Fullstack developer  &#127470;&#127475;</h3>
 
 <p align="center">
   <img align="right" top="500" height="300" width="400" alt="GIF" src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/image.gif">
